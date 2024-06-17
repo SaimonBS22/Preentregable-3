@@ -2,8 +2,10 @@
 @import "./base";
 
 
-//Import de componentes
-@import "./components/nav";
-
 //Import de secciones
 @import "./pages/index";
+
+//Import de componentes
+@import "./components/nav";
+@import"./components/img";
+@import"./components/titulos";

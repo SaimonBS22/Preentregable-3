@@ -5,16 +5,55 @@
   font-family: "Times New Roman", Times, serif;
 }
 
-nav ul {
-  display: flex;
-  justify-content: space-between;
+@media (min-width: 1024px) {
+  .header-index {
+    display: flex;
+    justify-content: space-between;
+    background-color: skyblue;
+    flex-wrap: wrap;
+    height: 200px;
+  }
+  .div-header-index {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+  }
 }
-nav ul li {
-  list-style: none;
+@media (min-width: 1024px) {
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+  }
+  nav ul li {
+    list-style: none;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  nav ul li a:hover {
+    font-size: larger;
+    text-decoration: underline;
+  }
 }
-nav ul li a {
-  text-decoration: none;
-  color: black;
+@media (min-width: 1024px) {
+  .fotoLogo-headerIndex {
+    margin-top: 25px;
+    margin-left: 15px;
+    width: 125px;
+    height: 125px;
+    border-radius: 75px 75px 75px 75px;
+    border: solid 1px black;
+  }
+}
+@media (min-width: 1024px) {
+  .h1-header-index {
+    margin-top: 70px;
+    color: black;
+    font-weight: bold;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

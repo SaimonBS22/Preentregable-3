@@ -1,17 +1,27 @@
 //Aca van todos los estilos de los componentes individuales que se repiten por lo general, como puede ser un input, un nav, botones, tarjetas
-
+@include mq-1024{
 
 nav{
 
     ul {
-        display: flex;
-        justify-content: space-between;
+        @include flex(center);
+        gap: 10px;
+        margin: 10px;
         li{
             list-style: none;
             a{
                 text-decoration: none;
                 color: black;
+                &:hover{
+                    font-size: larger;
+                    text-decoration: underline;
+                }
             }
         }
     }
+}
+
+
+
+
 }

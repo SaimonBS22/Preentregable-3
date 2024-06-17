@@ -6,3 +6,26 @@
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
+
+@mixin mq-500{
+    @media(max-width:500px){
+        @content;
+    }
+}
+
+@mixin mq-501-1023{
+    @media(min-width: 501px) and (max-width: 1023px){
+        @content;
+    }
+}
+
+@mixin mq-1024{
+    @media(min-width: 1024px){
+        @content;
+    }
+}
+
+@mixin flex($justify){
+    display: flex;
+    justify-content: $justify;
+}
