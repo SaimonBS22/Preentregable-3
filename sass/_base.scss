@@ -1,6 +1,8 @@
 //Aca van todos los datos para resetear el css o crear clases/variables para el css
 
-.body-general{
-    background: linear-gradient(skyblue, blue);
-    height: 1000px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }

@@ -1,1 +1,17 @@
 //Aca van todos los estilos de los componentes individuales que se repiten por lo general, como puede ser un input, un nav, botones, tarjetas
+
+
+nav{
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
