@@ -1,3 +1,12 @@
+@include mq-501-1023{
+    .h1-header-index{
+        margin-top:70px;
+        margin-bottom: 90px;
+        color: black;
+        font-size: larger;
+        font-weight: bold;
+}
+}
 @include mq-1024{
 
 .h1-header-index{
@@ -9,5 +18,10 @@
 /*INICIO MAIN*/
 .h2-main-index{
     margin-left: 10px;
+}
+/*INICIO FOOTER*/
+.div-footerIndex1 h2{
+    margin-left: 80px;
+    font-weight: bolder;
 }
 }

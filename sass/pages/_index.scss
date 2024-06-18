@@ -1,4 +1,43 @@
 //Aca van los estilos para una seccion en especifico, como el index, la pagina de contacto, de productos
+@include mq-501-1023{
+    .header-index{
+        @include flex(space-between);
+        background-color: skyblue;
+        flex-wrap: wrap;
+        height: 200px;
+} 
+    .div-header-index{
+        @include flex(space-around);
+        gap: 15px;
+        align-items: center;
+}
+/*INICIO MAIN*/
+.section-mainIndex1{
+    display: grid;
+    border-top: $border;
+    border-bottom: $border;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px; 
+}
+.div-mainIndex1{
+    margin-left: 50px;
+    margin-top: 25px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.div-mainIndex2{
+    margin-top: 25px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.div-mainIndex3{
+    margin-left: 20px;
+}
+.div-mainIndex5{
+    margin-left: 20px;
+}
+}
+
 @include mq-1024{
 .header-index{
     @include flex(space-between);
@@ -48,6 +87,15 @@
 }
 
 /*INICIO FOOTER*/
-
+.section-footer-index{
+    @include flex(space-between);
+    background-color: skyblue;
+}
+.div-footerIndex1{
+    margin: 25px;
+}
+.div-footerIndex2{
+    align-self: center;
+}
 
 }

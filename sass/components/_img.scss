@@ -1,3 +1,33 @@
+@include mq-501-1023{
+     .fotoLogo-headerIndex{
+          margin-top: 25px;
+          margin-left: 15px;
+          margin-bottom: 50px;
+          width: 75px;
+          height: 75px;
+          border-radius: 45px 45px 45px 45px;
+          border: $border;
+  }
+  /*INICIO MAIN*/
+  .div-mainIndex1 img{
+     width: 150px;
+     height: 200px;
+     border-radius: 25px;
+     border: $border;
+ }
+ .div-mainIndex2 img{
+     width: 150px;
+     height: 200px;
+     border-radius: 25px;
+     border: $border;
+ }
+ .img-mainIndex{
+     border-radius: 15px;
+     width: 100px;
+     height: 100px;
+     border: $border;
+ }
+}
 @include mq-1024{
 .fotoLogo-headerIndex{
      margin-top: 25px;
@@ -22,5 +52,14 @@
      width: 125px;
      height: 200px;
      border: $border;
+ }
+ /*INICIO FOOTER INDEX*/
+ .div-footerIndex3 img{
+     width: 125px;
+     height: 125px;
+     border-radius: 75px;
+     border: $border;
+     margin-top: 50px;
+     margin-right: 10px;
  }
 }
