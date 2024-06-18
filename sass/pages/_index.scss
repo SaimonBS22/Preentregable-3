@@ -12,8 +12,42 @@
     gap: 15px;
 }
 
+/*INICIO MAIN*/
 
+.section-mainIndex1{
+    display: grid;
+    border-top: $border;
+    border-bottom: $border;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px; 
+}
+.div-mainIndex1{
+    @include flex(none);
+    margin-left: 50px;
+    margin-top: 25px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.div-mainIndex2{
+    @include flex(none);
+    margin-top: 25px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.div-mainIndex3{
+    margin-left: 50px;
+}
+.div-mainIndex4{
+    margin-left: 50px;
+}
+.div-mainIndex5{
+    margin-left: 50px;
+}
+.div-mainIndex6{
+    margin-left: 50px;
+}
 
+/*INICIO FOOTER*/
 
 
 }
