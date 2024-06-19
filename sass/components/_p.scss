@@ -35,6 +35,13 @@
     width: 300px;
     }
     }
+    /*PRODUCTOS*/
+    .div-mainProductos2{
+        p{
+        width: 50px;
+        font-weight: bolder;
+        }
+    }
 }
 @include mq-501-1023{
     .p-mainIndex2{
@@ -47,6 +54,13 @@
     font-size: smaller;
     width: 150px ;
     }
+    }
+    /*PRODUCTOS*/
+    .div-mainProductos2{
+        p{
+        width: 50px;
+        font-weight: bolder;
+        }
     }
 }
 @include mq-1024{
@@ -62,6 +76,13 @@
         p{
         font-size: medium;
         width: 300px;
+        }
+    }
+    /*PRODUCTOS*/
+    .div-mainProductos2{
+        P{
+        width: 50px;
+        font-weight: bolder;
         }
     }
 }

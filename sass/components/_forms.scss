@@ -12,6 +12,14 @@
         font-size:smaller;
         }
     }
+    /*PRODUCTOS*/
+    .inputSearch-mainProductos{
+        border-radius: 5px;
+        border: $border;
+    }
+    .inputRadio-mainProductos{
+        width: 50px;
+    }
 }
 @include mq-501-1023{
     .div-footerIndex2{
@@ -27,6 +35,14 @@
         font-size:smaller;
         }
     }
+    /*PRODUCTOS*/
+    .inputSearch-mainProductos{
+        border-radius: 5px;
+        border: $border;
+    }
+    .inputRadio-mainProductos{
+        width: 50px;
+    }
 }
 @include mq-1024{
     .div-footerIndex2{
@@ -41,5 +57,13 @@
         font-weight: bold;
         font-size:smaller;
         }
+    }
+    /*PRODUCTOS*/
+    .inputSearch-mainProductos{
+        border-radius: 5px;
+        border: $border;
+    }
+    .inputRadio-mainProductos{
+        width: 50px;
     }
 }

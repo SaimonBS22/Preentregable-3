@@ -1,0 +1,14 @@
+@include mq-1024{
+    .section-mainAD{
+        @include flex(none);
+        border-top: $border;
+        border-bottom: $border;
+        flex-direction: column;
+    }
+    .div-mainAD3{
+        margin-left: 175px;
+        margin-top: 50px;
+        margin-right: 175px;
+        margin-bottom: 50px;
+    }
+}

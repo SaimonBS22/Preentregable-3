@@ -1,0 +1,169 @@
+@include mq-500{
+    .section-mainProductos{
+        border-top: $border;
+        border-bottom: $border;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .div-mainProductos1{
+        @include flex(none);
+        flex-direction: column;
+        align-items:center;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        margin-top: 50px;
+    }
+    .div-mainProductos2{
+        grid-column-start: 1;
+        grid-column-end: 2 ;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    .div-mainProductos2-2{
+        @include flex(none);
+        flex-wrap: wrap;
+        flex-direction: row;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        gap: 50px;
+    }
+    .div-mainProductos3{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    .div-mainProductos3-3{
+        @include flex(none);
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        gap: 50px;
+        flex-wrap: wrap
+    }
+}
+@include mq-501-1023{
+    .section-mainProductos{
+        border-top: $border;
+        border-bottom: $border;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .div-mainProductos1{
+        @include flex(none);
+        flex-direction: column;
+        align-items:center;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        margin-top: 50px;
+    }
+    .div-mainProductos2{
+        grid-column-start: 1;
+        grid-column-end: 2 ;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        margin-top: 20px;
+        margin-left: 75px;
+    }
+    .div-mainProductos2-2{
+        @include flex(none);
+        flex-wrap: wrap;
+        flex-direction: row;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        gap: 50px;
+    }
+    .div-mainProductos3{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        margin-top: 20px;
+        margin-left: 75px;
+    }
+    .div-mainProductos3-3{
+        @include flex(none);
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        gap: 50px;
+        flex-wrap: wrap
+    }
+    /*.div-mainProductos3-3-3{
+        @include flex(none);
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        gap: 150px;
+    }*/
+}
+@include mq-1024{
+.section-mainProductos{
+    border-top: $border;
+    border-bottom: $border;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.div-mainProductos1{
+    @include flex(none);
+    flex-direction: column;
+    align-items:center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-top: 150px;
+}
+.div-mainProductos2{
+    grid-column-start: 1;
+    grid-column-end: 2 ;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 20px;
+    margin-left: 75px;
+}
+.div-mainProductos2-2{
+    @include flex(none);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    gap: 150px;
+}
+.div-mainProductos3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin-top: 20px;
+    margin-left: 75px;
+}
+.div-mainProductos3-3{
+    @include flex(none);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    gap: 150px;
+}
+.div-mainProductos3-3-3{
+    @include flex(none);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    gap: 150px;
+}
+}

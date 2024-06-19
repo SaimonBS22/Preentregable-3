@@ -53,6 +53,13 @@
     margin: 5px;
     }
 }
+/*PRODUCTOS*/
+.img-mainProductos{
+    height: 150px;
+    width: 50px;
+    border-radius:15px;
+}
+
 }
 @include mq-501-1023{
      .fotoLogo-headerIndex{
@@ -106,6 +113,13 @@
     margin: 5px;
     }
 }
+/*PRODUCTOS*/
+.img-mainProductos{
+    height: 150px;
+    width: 100px;
+    border-radius: 25px;
+}
+
 }
 @include mq-1024{
 .fotoLogo-headerIndex{
@@ -154,5 +168,27 @@
     border-radius: 25px; 
     margin: 5px;
     }
+}
+/*PRODUCTOS*/
+.img-mainProductos{
+    height: 250px;
+    width: 200px;
+    border-radius: 25px;
+}
+/* ACERCA DE*/
+.img-mainAD1{
+    margin-left: 150px;
+    margin-right: 100px;
+    border-radius: 20px;
+}
+.img-mainAD2{
+    margin-left: 200px;
+    margin-right: 100px;
+    border-radius: 20px;
+}
+.img-mainAD3{
+    margin-left: 200px;
+    margin-right: 100px;
+    border-radius: 20px;
 }
 }

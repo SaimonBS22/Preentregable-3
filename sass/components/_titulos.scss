@@ -34,6 +34,20 @@
     font-weight: bolder;
     }
 }
+/*METODOS DE PAGO*/
+.h1-mainMDP{
+    font-weight: bolder;
+}
+.div-mainMDP2{
+    h1{
+    font-weight: bolder;
+}
+}
+.div-mainMDP2{
+    h2{
+    font-weight:500;
+    }
+}
 }
 @include mq-1024{
 
@@ -52,6 +66,20 @@
     h2{
     margin-left: 80px;
     font-weight: bolder;
+    }
+}
+/*METODOS DE PAGO*/
+.h1-mainMDP{
+    font-weight: bolder;
+}
+.div-mainMDP2{
+    h1{
+    font-weight: bolder;
+    }
+}
+.div-mainMDP2 {
+    h2{
+    font-weight:500;
     }
 }
 }
