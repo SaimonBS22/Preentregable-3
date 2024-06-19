@@ -1,3 +1,22 @@
+@include mq-500{
+    .h1-header-index{
+        margin-bottom: 70px;
+        color: black;
+        font-weight: bold;
+        font-size: medium;
+        align-self:center;
+}
+/*INICIO MAIN INDEX*/
+.h2-main-index{
+    font-size: small;
+    font-weight: bolder;
+}
+/*INICIO FOOTER INDEX*/
+.div-footerIndex1 h2{
+    margin-left: 80px;
+    font-weight: bolder;
+}
+}
 @include mq-501-1023{
     .h1-header-index{
         margin-top:70px;
@@ -5,6 +24,11 @@
         color: black;
         font-size: larger;
         font-weight: bold;
+}
+/*INICIO FOOTER INDEX*/
+.div-footerIndex1 h2{
+    margin-left: 20px;
+    font-weight: bolder;
 }
 }
 @include mq-1024{
@@ -15,11 +39,11 @@
     font-weight: bold;
 }
 
-/*INICIO MAIN*/
+/*INICIO MAIN INDEX*/
 .h2-main-index{
     margin-left: 10px;
 }
-/*INICIO FOOTER*/
+/*INICIO FOOTER INDEX*/
 .div-footerIndex1 h2{
     margin-left: 80px;
     font-weight: bolder;

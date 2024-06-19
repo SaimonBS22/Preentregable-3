@@ -1,3 +1,12 @@
+@include mq-500{
+    .a-main-index{
+        color: black;
+        text-decoration: none;
+        font-weight: bolder;
+        border-bottom: $border;
+        
+    }
+}
 @include mq-501-1023{
     .a-main-index{
         color: black;

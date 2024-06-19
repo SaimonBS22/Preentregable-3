@@ -1,4 +1,16 @@
 //Aca van todos los estilos de los componentes individuales que se repiten por lo general, como puede ser un input, un nav, botones, tarjetas
+@include mq-500{
+    ul{
+        margin-top: 15px;
+        font-size: x-small;
+        list-style: none;
+    }
+    nav ul a{
+        color: black;
+        text-decoration: none;
+        font-size: xx-small;
+    }
+}
 @include mq-501-1023{
     nav{
 
