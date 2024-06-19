@@ -1,9 +1,11 @@
 //Aca van los estilos para una seccion en especifico, como el index, la pagina de contacto, de productos
 @include mq-500{
+    body{
+        background: linear-gradient(#e66465, #9198e5, #9198e5, #e66465, #e66465, #9198e5);
+    }
     /* HEADER */
     .header-index{
         @include flex(space-between);
-        background-color: skyblue;
         flex-wrap: wrap;
         height: 200px;
 } 
@@ -12,13 +14,9 @@
         gap: 15px;
 }
 /*INICIO MAIN INDEX*/
-.section-mainIndex1{
-    border-bottom: $border;
-    border-top: $border;
-}
 .div-mainIndex1{
     @include flex(none);
-    margin: 20px;
+    margin: 0px 20px 20px 20px;
 }
 .div-mainIndex1-1{
     margin-left: 15px;
@@ -57,7 +55,6 @@
 /*INICIO FOOTER INDEX*/
 .section-footer-index{
     @include flex(space-between);
-    background-color: skyblue;
     flex-direction: column;
 }
 .div-footerIndex1{
@@ -72,9 +69,11 @@
 }
 }
 @include mq-501-1023{
+    body{
+        background: linear-gradient(#e66465, #9198e5, #9198e5, #e66465, #e66465, #9198e5);
+    }
     .header-index{
         @include flex(space-between);
-        background-color: skyblue;
         flex-wrap: wrap;
         height: 200px;
 } 
@@ -86,8 +85,6 @@
 /*INICIO MAIN INDEX*/
 .section-mainIndex1{
     display: grid;
-    border-top: $border;
-    border-bottom: $border;
     grid-template-columns: repeat(2, 1fr);
     gap: 100px; 
 }
@@ -111,7 +108,6 @@
 /*INICIO FOOTER INDEX*/
 .section-footer-index{
     @include flex(space-between);
-    background-color: skyblue;
 }
 .div-footerIndex1{
     margin: 15px;
@@ -123,9 +119,11 @@
 }
 
 @include mq-1024{
+    body{
+        background: linear-gradient(#e66465, #9198e5, #9198e5, #e66465, #e66465, #9198e5);
+    }
 .header-index{
     @include flex(space-between);
-    background-color: skyblue;
     flex-wrap: wrap;
     height: 200px;
 }
@@ -136,11 +134,8 @@
 }
 
 /*INICIO MAIN INDEX*/
-
 .section-mainIndex1{
     display: grid;
-    border-top: $border;
-    border-bottom: $border;
     grid-template-columns: repeat(4, 1fr);
     gap: 100px; 
 }
@@ -173,7 +168,6 @@
 /*INICIO FOOTER INDEX*/
 .section-footer-index{
     @include flex(space-between);
-    background-color: skyblue;
 }
 .div-footerIndex1{
     margin: 25px;

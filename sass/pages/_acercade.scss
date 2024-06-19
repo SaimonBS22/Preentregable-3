@@ -1,8 +1,6 @@
 @include mq-500{
     .section-mainAD{
         @include flex(none);
-        border-top: $border;
-        border-bottom: $border;
         flex-direction: column;
     }
     .div-mainAD2{
@@ -19,8 +17,6 @@
 @include mq-501-1023{
     .section-mainAD{
         @include flex(none);
-        border-top: $border;
-        border-bottom: $border;
         flex-direction: column;
     }
     .div-mainAD3{
@@ -33,8 +29,6 @@
 @include mq-1024{
     .section-mainAD{
         @include flex(none);
-        border-top: $border;
-        border-bottom: $border;
         flex-direction: column;
     }
     .div-mainAD3{

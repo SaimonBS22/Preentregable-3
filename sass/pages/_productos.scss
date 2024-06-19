@@ -1,7 +1,5 @@
 @include mq-500{
     .section-mainProductos{
-        border-top: $border;
-        border-bottom: $border;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
@@ -52,8 +50,6 @@
 }
 @include mq-501-1023{
     .section-mainProductos{
-        border-top: $border;
-        border-bottom: $border;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
@@ -112,8 +108,6 @@
 }
 @include mq-1024{
 .section-mainProductos{
-    border-top: $border;
-    border-bottom: $border;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);

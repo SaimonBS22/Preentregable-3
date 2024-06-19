@@ -1,8 +1,6 @@
 @include mq-500{
     .section-mainMDP{
         @include flex(none);
-        border-top: $border;
-        border-bottom: $border;
         flex-direction: column;
     }
     .div-mainMDP1{
@@ -20,8 +18,6 @@
 @include mq-501-1023{
     .section-mainMDP{
         @include flex(none);
-        border-top: $border;
-        border-bottom: $border;
         flex-direction: column;
     }
     .div-mainMDP1{
@@ -39,8 +35,6 @@
 @include mq-1024{
 .section-mainMDP{
     @include flex(none);
-    border-top: $border;
-    border-bottom: $border;
     flex-direction: column;
 }
 .div-mainMDP1{
