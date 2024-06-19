@@ -59,7 +59,28 @@
     width: 50px;
     border-radius:15px;
 }
-
+/*ACERCA DE*/
+.img-mainAD1{
+    height: 150px;
+    width:100px;
+    margin-left: 5%;
+    margin-right: 25px;
+    border-radius: 20px;
+}
+.img-mainAD2{
+    height: 150px;
+    width:100px;
+    margin-left: 5%;
+    margin-right: 25px;
+    border-radius: 20px;
+}
+.img-mainAD3{
+    height: 150px;
+    width:100px;
+    margin-left: 5%;
+    margin-right: 25px;
+    border-radius: 20px;
+}
 }
 @include mq-501-1023{
      .fotoLogo-headerIndex{
@@ -119,7 +140,28 @@
     width: 100px;
     border-radius: 25px;
 }
-
+/*ACERCA DE*/
+.img-mainAD1{
+    height: 150px;
+    width:100px;
+    margin-left: 15%;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+.img-mainAD2{
+    height: 150px;
+    width:100px;
+    margin-left: 15%;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+.img-mainAD3{
+    height: 150px;
+    width:100px;
+    margin-left: 15%;
+    margin-right: 50px;
+    border-radius: 20px;
+}
 }
 @include mq-1024{
 .fotoLogo-headerIndex{
@@ -177,16 +219,22 @@
 }
 /* ACERCA DE*/
 .img-mainAD1{
+    height: 225px;
+    width: 175px;
     margin-left: 150px;
     margin-right: 100px;
     border-radius: 20px;
 }
 .img-mainAD2{
+    height: 225px;
+    width: 175px;
     margin-left: 200px;
     margin-right: 100px;
     border-radius: 20px;
 }
 .img-mainAD3{
+    height: 225px;
+    width: 175px;
     margin-left: 200px;
     margin-right: 100px;
     border-radius: 20px;

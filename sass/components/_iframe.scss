@@ -2,12 +2,29 @@
     .iframe-main-contacto{
         margin-top: 10px;
     }
+    .iframe-mainAD{
+        height: 250px;
+        width: 300px;
+        margin-top: 75px;
+        margin-left: 15%;
+        margin-bottom: 75px;
+    
+    }
 }
 @include mq-501-1023{
     .iframe-main-contacto{
         margin-top: 20px;
         height: 400px;
         width: 400px;
+    }
+    /*ACERCA DE*/
+    .iframe-mainAD{
+        height: 250px;
+        width: 300px;
+        margin-top: 75px;
+        margin-left: 500px;
+        margin-bottom: 75px;
+    
     }
 }
 @include mq-1024{

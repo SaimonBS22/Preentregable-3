@@ -42,6 +42,11 @@
         font-weight: bolder;
         }
     }
+    /*METODOS DE PAGO*/
+    .p-mainMDP{
+        font-size: 10px;
+        font-weight: 0;
+    }
 }
 @include mq-501-1023{
     .p-mainIndex2{

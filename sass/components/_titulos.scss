@@ -18,6 +18,23 @@
     font-weight: bolder;
     }
 }
+/*METODOS DE PAGO*/
+.h1-mainMDP{
+    font-weight: bolder;
+    font-size: small;
+}
+.div-mainMDP2{
+    h1{
+        font-size: small;
+        font-weight: bolder;
+    }
+}
+.div-mainMDP2{
+    h2{
+        font-size: small;
+        font-weight:bold;
+    }
+}
 }
 @include mq-501-1023{
     .h1-header-index{

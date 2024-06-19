@@ -1,3 +1,35 @@
+@include mq-500{
+    .section-mainAD{
+        @include flex(none);
+        border-top: $border;
+        border-bottom: $border;
+        flex-direction: column;
+    }
+    .div-mainAD2{
+        @include flex(none);
+        flex-direction: row;
+    }
+    .div-mainAD3{
+        margin-left: 5%;
+        margin-top: 50px;
+        margin-right: 5%;
+        margin-bottom: 50px;
+    }
+}
+@include mq-501-1023{
+    .section-mainAD{
+        @include flex(none);
+        border-top: $border;
+        border-bottom: $border;
+        flex-direction: column;
+    }
+    .div-mainAD3{
+        margin-left: 200px;
+        margin-top: 50px;
+        margin-right: 175px;
+        margin-bottom: 50px;
+    }
+}
 @include mq-1024{
     .section-mainAD{
         @include flex(none);
