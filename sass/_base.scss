@@ -32,3 +32,12 @@ $border: solid 2px black;
     display: flex;
     justify-content: $justify;
 }
+
+@keyframes rotar{
+        from{
+            transform: rotateY(180deg); 
+        }
+        to{
+            transform: rotateY(-180deg);
+        }
+}

@@ -5,6 +5,14 @@
   font-family: "Times New Roman", Times, serif;
 }
 
+@keyframes rotar {
+  from {
+    transform: rotateY(180deg);
+  }
+  to {
+    transform: rotateY(-180deg);
+  }
+}
 @media (max-width: 500px) {
   /* HEADER */
   .header-index {
@@ -769,7 +777,7 @@
   /*INICIO CONTACTO MAIN*/
   .div-mainContacto2-2 img {
     border-radius: 25px;
-    margin: 5px;
+    margin: 5%;
   }
   /*PRODUCTOS*/
   .img-mainProductos {
@@ -807,7 +815,12 @@
     width: 125px;
     height: 125px;
     border-radius: 75px 75px 75px 75px;
-    border: solid 1px black;
+    border: solid 2px black;
+    /* animation: rotar 5s linear infinite;*/
+    animation-name: rotar;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    animation-timing-function: linear;
   }
   /*INICIO MAIN INDEX*/
   .div-mainIndex1 img {
@@ -849,21 +862,21 @@
   .img-mainAD1 {
     height: 225px;
     width: 175px;
-    margin-left: 150px;
+    margin-left: 15%;
     margin-right: 100px;
     border-radius: 20px;
   }
   .img-mainAD2 {
     height: 225px;
     width: 175px;
-    margin-left: 200px;
+    margin-left: 15%;
     margin-right: 100px;
     border-radius: 20px;
   }
   .img-mainAD3 {
     height: 225px;
     width: 175px;
-    margin-left: 200px;
+    margin-left: 15%;
     margin-right: 100px;
     border-radius: 20px;
   }
@@ -1012,7 +1025,7 @@
   }
   /*METODOS DE PAGO*/
   .p-mainMDP {
-    font-size: 10px;
+    font-size: x-small;
     font-weight: 0;
   }
 }
@@ -1130,7 +1143,8 @@
     height: 250px;
     width: 300px;
     margin-top: 75px;
-    margin-left: 500px;
+    margin-left: 35%;
+    margin-right: 25%;
     margin-bottom: 75px;
   }
 }
@@ -1145,7 +1159,8 @@
     height: 300px;
     width: 500px;
     margin-top: 75px;
-    margin-left: 500px;
+    margin-left: 35%;
+    margin-right: 25%;
     margin-bottom: 75px;
   }
 }
