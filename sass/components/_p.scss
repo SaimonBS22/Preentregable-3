@@ -8,22 +8,32 @@
             width: 125px;
             align-self: center;
         }
-        .div-mainIndex3 p{
-            margin-left: 15px;
+        .div-mainIndex3{
+            p{
+                margin-right: 15px;
+                }
         }
-        .div-mainIndex4 p{
+        .div-mainIndex4{
+            p{
+                margin-right: 15px;
+                }
+        }
+        .div-mainIndex5{
+            p{
+                margin-right: 15px;
+                }
+        }
+        .div-mainIndex6 {
+            p{
             margin-right: 15px;
-        }
-        .div-mainIndex5 p{
-            margin-left: 15px;
-        }
-        .div-mainIndex6 p{
-            margin-right: 15px;
+            }
         }
 /*INICIO FOOTER INDEX*/
-.div-footerIndex1 p{
+.div-footerIndex1{
+    p{
     font-size: medium;
     width: 300px;
+    }
     }
 }
 @include mq-501-1023{
@@ -32,9 +42,11 @@
     }
 
 /*INICIO FOOTER INDEX*/
-.div-footerIndex1 p{
+.div-footerIndex1{
+    p{
     font-size: smaller;
     width: 150px ;
+    }
     }
 }
 @include mq-1024{
@@ -46,9 +58,10 @@
         width: 110px;
     }
 /*INICIO FOOTER INDEX*/
-    .div-footerIndex1 p{
-        
+    .div-footerIndex1{
+        p{
         font-size: medium;
         width: 300px;
+        }
     }
 }

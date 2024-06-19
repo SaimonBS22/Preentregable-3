@@ -12,9 +12,11 @@
     font-weight: bolder;
 }
 /*INICIO FOOTER INDEX*/
-.div-footerIndex1 h2{
+.div-footerIndex1{
+    h2{
     margin-left: 80px;
     font-weight: bolder;
+    }
 }
 }
 @include mq-501-1023{
@@ -26,9 +28,11 @@
         font-weight: bold;
 }
 /*INICIO FOOTER INDEX*/
-.div-footerIndex1 h2{
+.div-footerIndex1{
+    h2{
     margin-left: 20px;
     font-weight: bolder;
+    }
 }
 }
 @include mq-1024{
@@ -44,8 +48,10 @@
     margin-left: 10px;
 }
 /*INICIO FOOTER INDEX*/
-.div-footerIndex1 h2{
+.div-footerIndex1 {
+    h2{
     margin-left: 80px;
     font-weight: bolder;
+    }
 }
 }

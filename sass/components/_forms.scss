@@ -1,33 +1,45 @@
 @include mq-500{
-    .div-footerIndex2 input{
+    .div-footerIndex2 {
+        input{
         border-radius: 8px;
         border: $border;
         width: fit-content;
+        }
     }
-    .div-footerIndex2 label{
+    .div-footerIndex2 {
+        label{
         font-weight: bold;
         font-size:smaller;
+        }
     }
 }
 @include mq-501-1023{
-    .div-footerIndex2 input{
+    .div-footerIndex2{
+        input{
         border-radius: 8px;
         border: $border;
         width: fit-content;
+        }
     }
-    .div-footerIndex2 label{
+    .div-footerIndex2{
+        label{
         font-weight: bold;
         font-size:smaller;
+        }
     }
 }
 @include mq-1024{
-    .div-footerIndex2 input{
+    .div-footerIndex2{
+        input{
         border-radius: 8px;
         border: $border;
         width: fit-content;
+        }
     }
-    .div-footerIndex2 label{
+    .div-footerIndex2{
+        label{
         font-weight: bold;
         font-size:smaller;
+        }
     }
 }

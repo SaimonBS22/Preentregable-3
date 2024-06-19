@@ -10,17 +10,21 @@
       
 }
 /*INICIO MAIN INDEX*/
-.div-mainIndex1 img{
+.div-mainIndex1 {
+    img{
     width: 100px;
     height: 125px;
     border-radius: 20px;
     border: $border;
+    }
 }
-.div-mainIndex2 img{
+.div-mainIndex2{
+    img{
     width: 100px;
     height: 125px;
     border-radius: 20px;
     border: $border;
+    }
 }
 .img-mainIndex{
     width: 100px;
@@ -29,13 +33,25 @@
     border: $border;
 }
 /*INICIO FOOTER INDEX*/
-.div-footerIndex3 img{
+.div-footerIndex3 {
+    img{
     width: 75px;
     height: 75px;
     border-radius: 75px;
     border: $border;
     margin-top: 50px;
     margin-right: 10px;
+    }
+}
+/*INICIO CONTACTO*/
+/*INICIO MAIN CONTACTO*/
+.div-mainContacto2-2 {
+    img{
+    height: 75px;
+    width: 75px;
+    border-radius: 75px;
+    margin: 5px;
+    }
 }
 }
 @include mq-501-1023{
@@ -49,17 +65,21 @@
           border: $border;
   }
   /*INICIO MAIN INDEX*/
-  .div-mainIndex1 img{
+  .div-mainIndex1 {
+    img{
      width: 150px;
      height: 200px;
      border-radius: 25px;
      border: $border;
+    }
  }
- .div-mainIndex2 img{
+ .div-mainIndex2 {
+    img{
      width: 150px;
      height: 200px;
      border-radius: 25px;
      border: $border;
+    }
  }
  .img-mainIndex{
      border-radius: 15px;
@@ -68,13 +88,23 @@
      border: $border;
  }
  /*INICIO FOOTER INDEX*/
- .div-footerIndex3 img{
+ .div-footerIndex3 {
+    img{
     width: 75px;
     height: 75px;
     border-radius: 35px;
     border: $border;
     margin-top: 50px;
     margin-right: 10px;
+    }
+}
+/*CONTACTO*/
+/*INICIO CONTACTO MAIN*/
+.div-mainContacto2-2 {
+    img{
+    border-radius: 25px; 
+    margin: 5px;
+    }
 }
 }
 @include mq-1024{
@@ -88,13 +118,17 @@
 }
 
 /*INICIO MAIN INDEX*/
-.div-mainIndex1 img{ 
+.div-mainIndex1 {
+    img{ 
      border-radius: 25px;
      border: $border;
+    }
 }
-.div-mainIndex2 img{
+.div-mainIndex2 {
+    img{
      border-radius: 25px;
      border: $border;
+    }
  }
  .img-mainIndex{
      border-radius: 15px;
@@ -103,12 +137,22 @@
      border: $border;
  }
  /*INICIO FOOTER INDEX*/
- .div-footerIndex3 img{
+ .div-footerIndex3 {
+    img{
      width: 125px;
      height: 125px;
      border-radius: 75px;
      border: $border;
      margin-top: 50px;
      margin-right: 10px;
+    }
  }
+ /*CONTACTO*/
+ /*INICIO MAIN CONTACTO*/
+ .div-mainContacto2-2{
+    img{
+    border-radius: 25px; 
+    margin: 5px;
+    }
+}
 }

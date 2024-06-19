@@ -4,6 +4,8 @@
 
 //Import de secciones
 @import "./pages/index";
+@import "./pages/contacto";
+@import"./pages/productos";
 
 //Import de componentes
 @import "./components/nav";
@@ -12,3 +14,4 @@
 @import"./components/a";
 @import"./components/p";
 @import"./components/forms";
+@import "./components/iframe";

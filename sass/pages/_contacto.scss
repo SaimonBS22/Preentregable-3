@@ -1,0 +1,113 @@
+@include mq-500{
+    .section-mainContacto{
+        @include flex(none);
+        flex-direction: column;
+    }
+    .div-mainContacto1{
+        margin: 25px;
+    }
+    .div-mainContacto2{
+        margin: 25px;
+    }
+    .div-mainContacto3{
+        margin: 25px;
+    }
+    .div-mainContacto4{
+        margin: 25px;
+    }
+}
+@include mq-501-1023{
+    .section-mainContacto{
+        border-top: $border;
+        border-bottom: $border;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .div-mainContacto1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        align-self: center;
+        margin: 20px;
+    }
+    
+    .div-mainContacto2{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        align-self: center;
+        margin: 20px;
+    }
+    .div-mainContacto2-2{
+        @include flex(none);
+        width: 75px;
+        height: 75px;
+    }
+    .div-mainContacto3{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        align-self: center;
+        margin: 20px;
+    }
+    .div-mainContacto4{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        align-self: center;
+        margin-top: 10px;
+    }
+}
+
+@include mq-1024{
+    .section-mainContacto{
+        border-top: $border;
+        border-bottom: $border;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .div-mainContacto1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        align-self: center;
+        margin: 20px;
+    }
+    
+    .div-mainContacto2{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        align-self: center;
+        margin: 20px;
+    }
+    .div-mainContacto2-2{
+        @include flex(none);
+        width: 75px;
+        height: 75px;
+    }
+    .div-mainContacto3{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        align-self: center;
+        margin: 20px;
+    }
+    .div-mainContacto4{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        align-self: center;
+        margin-top: 10px;
+    }
+}

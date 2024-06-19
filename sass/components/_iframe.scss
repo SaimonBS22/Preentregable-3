@@ -1,0 +1,19 @@
+@include mq-500{
+    .iframe-main-contacto{
+        margin-top: 10px;
+    }
+}
+@include mq-501-1023{
+    .iframe-main-contacto{
+        margin-top: 20px;
+        height: 400px;
+        width: 400px;
+    }
+}
+@include mq-1024{
+    .iframe-main-contacto{
+        margin-top: 20px;
+        height: 400px;
+        width: 600px;
+    }
+}
